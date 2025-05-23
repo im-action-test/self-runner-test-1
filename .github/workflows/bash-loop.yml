@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-loop:
-    runs-on: gpu
+    runs-on: [self-hosted, Linux, X64, gpu]
 
     steps:
       - name: Checkout code
