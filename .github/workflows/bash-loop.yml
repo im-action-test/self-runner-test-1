@@ -7,7 +7,9 @@ on:
 
 jobs:
   run-loop:
-    runs-on: self-hosted
+    runs-on:
+      - osx-tahoe-26-edge
+      - g2.mac.m2pro.6c-14g
 
     steps:
       - name: Checkout code
