@@ -8,7 +8,7 @@ on:
 jobs:
   run-loop:
     runs-on:
-      - bitrise_pool_name:bitrise-runner-test1
+      - bitrise-runner-linux-free
 
     steps:
       - name: Checkout code
