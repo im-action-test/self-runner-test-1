@@ -5,10 +5,13 @@ on:
     branches:
       - main
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   run-loop:
     runs-on:
-      - bitrise-runner-linux-free
+      - bitrise-runner-app-test-macos-m4pro-6vcpu
 
     steps:
       - name: Checkout code
