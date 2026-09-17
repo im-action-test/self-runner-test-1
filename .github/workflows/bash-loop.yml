@@ -11,7 +11,7 @@ on:
 jobs:
   run-loop:
     runs-on:
-      - bitrise-runner-app-test-macos-m4pro-6vcpu
+      - bitrise-runner-app-test-macos-m4pro-12vcpu
 
     steps:
       - name: Checkout code
