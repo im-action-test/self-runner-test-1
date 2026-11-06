@@ -11,7 +11,7 @@ on:
 jobs:
   run-loop:
     runs-on:
-      - bitrise-runner-2xlarge-test
+      - bitrise-runner-m5pro-x-large
 
     steps:
       - name: Checkout code
